@@ -152,31 +152,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
-
-
-For ease (after brew installation):
-
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
-sudo installer -pkg AWSCLIV2.pkg -target 
-brew install pyenv
-brew install poetry
-brew install mysql
-brew install node
-brew tap databricks/tap
-brew install databricks
-npm install -g @aws-amplify/cli
-brew install --cask visual-studio-code
-brew install --cask docker
-brew install --cask sublime-text
-brew install --cask iterm2
-brew install --cask sequel-ace
-brew install --cask bitwarden
-brew install --cask anaconda
-brew install --cask zoom
-brew install --cask rectangle
-brew install --cask maccy
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-```
